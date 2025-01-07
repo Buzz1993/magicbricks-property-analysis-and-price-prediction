@@ -1,0 +1,5 @@
+Question may ask on the project I make 
+Feature engineering 
+1)If we use ordinal encoding, then there are some algos who can detect this as, one category better than other and so on , and this is not good hence we use nominal encoding here like OHE(bp152)
+2)as we have seen earlier that there are some algos(eg:linear algos) which wont work well if we have multicolinearity in data and if we use OHE then it creates that multicolinearity,and hence to avoid that we drop one column(generally we drop first column from data) from one hot encoded features ,and this is called as the dummy variable trap
+-so this generally we have to do when we are working with linear algos, but to make a standard procedure we can use at the time of tree based and other algos also
