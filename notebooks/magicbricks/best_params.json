@@ -1,0 +1,14 @@
+{
+    "n_estimators": 250,
+    "max_depth": 13,
+    "learning_rate": 0.01065533886789914,
+    "subsample": 0.7319329281204279,
+    "colsample_bytree": 0.7866293434314265,
+    "iqr_multiplier": 2.1885982587936277,
+    "num_strategy_available_units": "knn",
+    "num_strategy_towers": "knn",
+    "num_strategy_bath": "knn",
+    "num_strategy_bed": "mean",
+    "cat_strategy_flooring": "knn",
+    "cat_strategy_construction": "knn"
+}
